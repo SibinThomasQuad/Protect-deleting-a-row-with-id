@@ -2,6 +2,10 @@
 
 # Run this trigger to block deleting users like super admins etc..
 
+Change table1 to your table name
+
+change id to the primary key and 1 to your protecting id
+
           DELIMITER $$
 
           CREATE TRIGGER trigger1
